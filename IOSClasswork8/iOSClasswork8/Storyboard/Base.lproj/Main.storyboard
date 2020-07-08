@@ -121,7 +121,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="تفاصيل الطقس" id="gdg-iT-WhJ"/>
                     <connections>
-                        <outlet property="cityNameLabel" destination="Xyu-Yy-EoK" id="1Ao-Ek-Sr7"/>
+                        <outlet property="cityNameLabel" destination="HU6-vC-Txf" id="dZG-Tt-bcY"/>
                         <outlet property="currentTemp" destination="Xyu-Yy-EoK" id="Igt-vI-Bn5"/>
                         <outlet property="maxTemp" destination="K3n-8T-LIh" id="zhV-Fy-sq9"/>
                         <outlet property="minTemp" destination="wtH-Kx-esi" id="gAK-qn-06x"/>

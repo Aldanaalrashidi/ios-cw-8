@@ -18,13 +18,11 @@ struct City{
         return UIImage(named: cardName)!
     }
        
-    
     func remarkablePlaceImage () -> UIImage
     {
         let remarkablePlaceName = "\(cardName)1"
         return UIImage(named: remarkablePlaceName)!
     }
-    
     
 }
 

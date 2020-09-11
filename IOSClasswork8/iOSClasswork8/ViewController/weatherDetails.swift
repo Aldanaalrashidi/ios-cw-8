@@ -12,13 +12,9 @@ class weatherDetails: UIViewController {
     var city: City!
     
     @IBOutlet weak var remarkablePlaceImageVIew: UIImageView!
-    
     @IBOutlet weak var cityNameLabel: UILabel!
-    
     @IBOutlet weak var currentTemp: UILabel!
     @IBOutlet weak var minTemp: UILabel!
-    
-    
     @IBOutlet weak var maxTemp: UILabel!
     
     override func viewDidLoad() {
@@ -35,7 +31,6 @@ class weatherDetails: UIViewController {
             let tempInK = forcast!.main.temp
             let tempInC = Int((tempInK - 272.15).rounded())
             self.currentTemp.text = "\(tempInC)°"
-            
             
             let mintempK = forcast!.main.temp_min
             let mintempC = (mintempK - 272.15).rounded(.down)

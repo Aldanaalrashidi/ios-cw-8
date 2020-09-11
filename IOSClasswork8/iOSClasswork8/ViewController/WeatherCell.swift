@@ -12,7 +12,4 @@ class WeatherCell: UITableViewCell {
     
     @IBOutlet var cardImage: UIImageView!
     @IBOutlet var cardLabel: UILabel!
-    
-  
-
 }

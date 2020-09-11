@@ -28,7 +28,6 @@ class weatherDetails: UIViewController {
         remarkablePlaceImageVIew.image = city.remarkablePlaceImage()
     }
     
-    
     func getWeatherDetails()
     {
         Weather().requestWeatherFor(city: city.name) { (forcast) in
@@ -40,8 +39,7 @@ class weatherDetails: UIViewController {
             
             let mintempK = forcast!.main.temp_min
             let mintempC = (mintempK - 272.15).rounded(.down)
-             self.minTemp.text = "\(mintempC)°C"
-            
+            self.minTemp.text = "\(mintempC)°C"
             
             let maxtempK = forcast!.main.temp_max
             let maxtempC = (maxtempK - 272.15).rounded(.down)
